@@ -1,0 +1,7 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {}
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/${localWorkspaceFolderBasename},type=bind",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}/firmware/esp32-csi-node",
+
+}
